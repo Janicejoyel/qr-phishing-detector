@@ -1,0 +1,11 @@
+# Secret API keys - never upload these
+.env
+
+# Virtual environment and Python cache
+venv/
+__pycache__/
+*.pyc
+
+# Large dataset - re-download with download_dataset.py
+data/phiusiil_dataset.csv
+data/urls_only.csv.gz

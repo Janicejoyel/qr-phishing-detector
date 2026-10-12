@@ -1,0 +1,12 @@
+streamlit
+opencv-python
+numpy
+pandas
+scikit-learn
+joblib
+requests
+python-whois
+tldextract
+qrcode[pil]
+plotly
+matplotlib

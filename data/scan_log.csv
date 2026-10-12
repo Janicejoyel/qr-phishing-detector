@@ -1,0 +1,7 @@
+timestamp,source,url,domain,verdict,final_score,rule_score,ml_score,intel_score,confirmed_by_intel,top_reason
+2026-10-12 12:48:34,self-test,http://192.168.10.5/bank/login.php,192.168.10.5,Malicious,52,50,100,0,0,Uses a raw IP address instead of a domain name
+2026-10-12 12:48:56,self-test,http://paypa1-secure-login.com/verify/account,paypa1-secure-login.com,Malicious,60,65,98,10,0,Looks like it is impersonating a known brand
+2026-10-12 12:49:08,self-test,http://bit.ly/3xYzAbC,bit.ly,Suspicious,36,25,53,30,0,Uses a URL shortener that hides the real destination
+2026-10-12 12:49:22,self-test,https://www.google.com,www.google.com,Safe,7,0,19,0,0,
+2026-10-12 12:49:36,self-test,https://www.karunya.edu,www.karunya.edu,Safe,7,0,19,0,0,
+2026-10-12 12:58:25,upload,http://192.168.10.5/bank/login.php,192.168.10.5,Malicious,52,50,100,0,0,Uses a raw IP address instead of a domain name
